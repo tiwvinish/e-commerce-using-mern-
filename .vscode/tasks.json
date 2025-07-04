@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "api",
+			"problemMatcher": [],
+			"label": "npm: dev - api",
+			"detail": "nodemon ."
+		},	{
+			"type": "npm",
+			"script": "dev",
+			"path": "cms-ui",
+			"problemMatcher": [],
+			"label": "npm: dev - cms-ui",
+			"detail": "vite"
+		}
+	]
+}
