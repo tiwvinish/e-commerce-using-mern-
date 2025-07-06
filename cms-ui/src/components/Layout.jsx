@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import "react-toastify/dist/ReactToastify.min.css"
 import "./layout.css"
 import { Container, Nav, Navbar,NavDropdown, NavLink,Col, Row, } from "react-bootstrap"
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 export const Layout = ()=>{
     return <>
@@ -14,16 +14,31 @@ export const Layout = ()=>{
      <Navbar.Collapse>
         <Nav className="me-auto">
             <Nav.Item>
-                <NavLink to="" className="nav.link">
-                    Link
-                </NavLink>
+                <Link to="/" className="nav-link">
+                    Home
+                </Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Link to="/about" className="nav-link">
+                    About
+                </Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Link to="/contact" className="nav-link">
+                    Contact
+                </Link>
             </Nav.Item>
         </Nav>
         <Nav>
             <Nav.Item>
                 <NavDropdown title="Demo User" align="end">
-                    <link to=""  className="dropdown-item">
-                    Item</link>
+                    <Link to="/profile" className="dropdown-item">
+                        Profile
+                    </Link>
+                    <NavDropdown.Divider />
+                    <Link to="/logout" className="dropdown-item">
+                        Logout
+                    </Link>
                 </NavDropdown>
             </Nav.Item>
         </Nav>
@@ -37,7 +52,7 @@ export const Layout = ()=>{
         <Col className="bg-white my-3 py-3 rounded-3 shadow-sm" >
               <Row>
                 <Col>
-                <h1>Welcome</h1>
+                  <Outlet />
                 </Col>
               </Row>
             </Col>
