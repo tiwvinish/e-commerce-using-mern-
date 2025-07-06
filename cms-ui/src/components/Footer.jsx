@@ -11,7 +11,7 @@ export const Footer = () => {
           {/* Company Information */}
           <Col lg={3} md={6} sm={12} className="mb-4">
             <div className="footer-section">
-              <h5 className="footer-title">MERN </h5>
+              <h5 className="footer-title">Commerce </h5>
               <p className="footer-description">
                 Your trusted destination for quality products. We provide the best shopping experience with premium customer service.
               </p>
