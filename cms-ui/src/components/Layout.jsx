@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.min.css"
 import "./layout.css"
 import { Container, Nav, Navbar,NavDropdown, NavLink,Col, Row, } from "react-bootstrap"
 import { Link, Outlet } from "react-router-dom"
+import { Footer } from "./index"
 
 export const Layout = ()=>{
     return <>
@@ -59,5 +60,6 @@ export const Layout = ()=>{
         </Row>
     </Container>
     
+    <Footer />
     </>
 }
