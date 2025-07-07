@@ -13,7 +13,7 @@ export const Home = () => {
         textAlign: "center"
       }}>
         <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-          Welcome to MERN 3PM Dashboard
+          Welcome to Vinish ko E-commerce Website
         </h1>
         <p style={{ fontSize: "1.2rem", opacity: 0.9, maxWidth: "600px", margin: "0 auto" }}>
           Your comprehensive e-commerce management platform. Monitor sales, manage products, and grow your business.
