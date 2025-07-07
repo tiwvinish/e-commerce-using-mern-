@@ -2,15 +2,15 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "2rem" }}>
+    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "2rem", background: "#181a1b", minHeight: "100vh" }}>
       {/* Hero Section */}
       <div style={{ 
         textAlign: "center", 
         marginBottom: "4rem",
         padding: "3rem 0",
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        background: "#212529",
         borderRadius: "12px",
-        color: "white"
+        color: "#fff"
       }}>
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem", fontWeight: "bold" }}>
           About Us
@@ -22,37 +22,37 @@ export const About = () => {
 
       {/* Company Story Section */}
       <div style={{ marginBottom: "4rem" }}>
-        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#333", textAlign: "center" }}>
+        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#fff", textAlign: "center" }}>
           Our Story
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "center" }}>
           <div>
-            <p style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "#666", marginBottom: "1.5rem" }}>
+            <p style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "#bbb", marginBottom: "1.5rem" }}>
               Founded with a vision to revolutionize the way people shop online, our company has grown from a small startup to a trusted name in e-commerce. We believe in quality, innovation, and customer satisfaction above all else.
             </p>
-            <p style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "#666" }}>
+            <p style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "#bbb" }}>
               Our journey began with a simple idea: to create an online shopping experience that's not just convenient, but delightful. Today, we serve thousands of customers worldwide, offering a curated selection of premium products.
             </p>
           </div>
           <div style={{ 
-            background: "#f8f9fa", 
+            background: "#23272b", 
             padding: "2rem", 
             borderRadius: "12px",
-            border: "1px solid #e9ecef"
+            border: "1px solid #343a40"
           }}>
-            <h3 style={{ color: "#333", marginBottom: "1rem" }}>Quick Facts</h3>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Quick Facts</h3>
             <ul style={{ listStyle: "none", padding: 0 }}>
-              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #e9ecef" }}>
-                <strong>Founded:</strong> 2020
+              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #343a40", color: "#bbb" }}>
+                <strong style={{ color: "#ffd700" }}>Founded:</strong> 2020
               </li>
-              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #e9ecef" }}>
-                <strong>Customers Served:</strong> 50,000+
+              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #343a40", color: "#bbb" }}>
+                <strong style={{ color: "#ffd700" }}>Customers Served:</strong> 50,000+
               </li>
-              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #e9ecef" }}>
-                <strong>Products:</strong> 10,000+
+              <li style={{ padding: "0.5rem 0", borderBottom: "1px solid #343a40", color: "#bbb" }}>
+                <strong style={{ color: "#ffd700" }}>Products:</strong> 10,000+
               </li>
-              <li style={{ padding: "0.5rem 0" }}>
-                <strong>Team Members:</strong> 100+
+              <li style={{ padding: "0.5rem 0", color: "#bbb" }}>
+                <strong style={{ color: "#ffd700" }}>Team Members:</strong> 100+
               </li>
             </ul>
           </div>
@@ -63,10 +63,10 @@ export const About = () => {
       <div style={{ marginBottom: "4rem" }}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem" }}>
           <div style={{ 
-            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)", 
+            background: "#23272b", 
             padding: "2.5rem", 
             borderRadius: "12px",
-            color: "white"
+            color: "#fff"
           }}>
             <h3 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>Our Mission</h3>
             <p style={{ fontSize: "1.1rem", lineHeight: "1.7", opacity: 0.9 }}>
@@ -74,10 +74,10 @@ export const About = () => {
             </p>
           </div>
           <div style={{ 
-            background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)", 
+            background: "#23272b", 
             padding: "2.5rem", 
             borderRadius: "12px",
-            color: "white"
+            color: "#fff"
           }}>
             <h3 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>Our Vision</h3>
             <p style={{ fontSize: "1.1rem", lineHeight: "1.7", opacity: 0.9 }}>
@@ -89,35 +89,35 @@ export const About = () => {
 
       {/* Values Section */}
       <div style={{ marginBottom: "4rem" }}>
-        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#333", textAlign: "center" }}>
+        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#fff", textAlign: "center" }}>
           Our Values
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "2rem" }}>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🎯</div>
-            <h3 style={{ color: "#333", marginBottom: "1rem" }}>Excellence</h3>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem", color: "#ffd700" }}>🎯</div>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Excellence</h3>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               We strive for excellence in everything we do, from product quality to customer service.
             </p>
           </div>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🤝</div>
-            <h3 style={{ color: "#333", marginBottom: "1rem" }}>Integrity</h3>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem", color: "#ffd700" }}>🤝</div>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Integrity</h3>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               We conduct our business with honesty, transparency, and ethical practices.
             </p>
           </div>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>💡</div>
-            <h3 style={{ color: "#333", marginBottom: "1rem" }}>Innovation</h3>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem", color: "#ffd700" }}>💡</div>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Innovation</h3>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               We continuously innovate to improve our products and services for our customers.
             </p>
           </div>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>❤️</div>
-            <h3 style={{ color: "#333", marginBottom: "1rem" }}>Customer First</h3>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem", color: "#ffd700" }}>❤️</div>
+            <h3 style={{ color: "#fff", marginBottom: "1rem" }}>Customer First</h3>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               Our customers are at the heart of every decision we make and action we take.
             </p>
           </div>
@@ -126,70 +126,70 @@ export const About = () => {
 
       {/* Team Section */}
       <div style={{ marginBottom: "4rem" }}>
-        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#333", textAlign: "center" }}>
+        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#fff", textAlign: "center" }}>
           Meet Our Team
         </h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
             <div style={{ 
               width: "120px", 
               height: "120px", 
               borderRadius: "50%", 
-              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+              background: "#212529",
               margin: "0 auto 1rem",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontSize: "3rem",
-              color: "white"
+              color: "#ffd700"
             }}>
               👨‍💼
             </div>
-            <h3 style={{ color: "#333", marginBottom: "0.5rem" }}>John Smith</h3>
-            <p style={{ color: "#667eea", marginBottom: "1rem", fontWeight: "bold" }}>CEO & Founder</p>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+            <h3 style={{ color: "#fff", marginBottom: "0.5rem" }}>John Smith</h3>
+            <p style={{ color: "#ffd700", marginBottom: "1rem", fontWeight: "bold" }}>CEO & Founder</p>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               Visionary leader with 15+ years of experience in e-commerce and technology.
             </p>
           </div>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
             <div style={{ 
               width: "120px", 
               height: "120px", 
               borderRadius: "50%", 
-              background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+              background: "#212529",
               margin: "0 auto 1rem",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontSize: "3rem",
-              color: "white"
+              color: "#ffd700"
             }}>
               👩‍💼
             </div>
-            <h3 style={{ color: "#333", marginBottom: "0.5rem" }}>Sarah Johnson</h3>
-            <p style={{ color: "#f093fb", marginBottom: "1rem", fontWeight: "bold" }}>CTO</p>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+            <h3 style={{ color: "#fff", marginBottom: "0.5rem" }}>Sarah Johnson</h3>
+            <p style={{ color: "#ffd700", marginBottom: "1rem", fontWeight: "bold" }}>CTO</p>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               Technology expert driving innovation and digital transformation.
             </p>
           </div>
-          <div style={{ textAlign: "center", padding: "2rem", background: "#fff", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.1)" }}>
+          <div style={{ textAlign: "center", padding: "2rem", background: "#23272b", borderRadius: "12px", boxShadow: "0 4px 6px rgba(0,0,0,0.2)" }}>
             <div style={{ 
               width: "120px", 
               height: "120px", 
               borderRadius: "50%", 
-              background: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+              background: "#212529",
               margin: "0 auto 1rem",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontSize: "3rem",
-              color: "white"
+              color: "#ffd700"
             }}>
               👨‍💻
             </div>
-            <h3 style={{ color: "#333", marginBottom: "0.5rem" }}>Mike Chen</h3>
-            <p style={{ color: "#4facfe", marginBottom: "1rem", fontWeight: "bold" }}>Head of Product</p>
-            <p style={{ color: "#666", lineHeight: "1.6" }}>
+            <h3 style={{ color: "#fff", marginBottom: "0.5rem" }}>Mike Chen</h3>
+            <p style={{ color: "#ffd700", marginBottom: "1rem", fontWeight: "bold" }}>Head of Product</p>
+            <p style={{ color: "#bbb", lineHeight: "1.6" }}>
               Product strategist focused on creating exceptional user experiences.
             </p>
           </div>

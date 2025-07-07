@@ -10,18 +10,9 @@ import Header from "./Header"
 export const Layout = ()=>{
     return <>
     <Header />
-    <Container>
-        <Row>
-        <Col className="bg-white my-3 py-3 rounded-3 shadow-sm" >
-              <Row>
-                <Col>
-                  <Outlet />
-                </Col>
-              </Row>
-            </Col>
-        </Row>
-    </Container>
-    
+    <div style={{ background: "#181a1b", minHeight: "100vh", padding: "2rem 0" }}>
+      <Outlet />
+    </div>
     <Footer />
     </>
 }

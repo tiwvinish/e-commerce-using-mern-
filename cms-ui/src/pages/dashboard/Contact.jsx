@@ -16,15 +16,15 @@ export const Contact = () => {
   };
 
   return (
-    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "2rem" }}>
+    <div style={{ maxWidth: 1200, margin: "0 auto", padding: "2rem", background: "#181a1b", minHeight: "100vh" }}>
       {/* Hero Section */}
       <div style={{ 
         textAlign: "center", 
         marginBottom: "4rem",
         padding: "3rem 0",
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        background: "#212529",
         borderRadius: "12px",
-        color: "white"
+        color: "#fff"
       }}>
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem", fontWeight: "bold" }}>
           Contact Us
@@ -37,31 +37,32 @@ export const Contact = () => {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "start" }}>
         {/* Contact Form */}
         <div style={{ 
-          background: "white", 
+          background: "#23272b", 
           padding: "2.5rem", 
           borderRadius: "12px", 
-          boxShadow: "0 4px 6px rgba(0,0,0,0.1)" 
+          boxShadow: "0 4px 6px rgba(0,0,0,0.2)" 
         }}>
-          <h2 style={{ color: "#333", marginBottom: "2rem", fontSize: "2rem" }}>Send us a Message</h2>
+          <h2 style={{ color: "#fff", marginBottom: "2rem", fontSize: "2rem" }}>Send us a Message</h2>
           
           {submitted ? (
             <div style={{ 
               padding: "2rem", 
-              background: "#d4edda", 
+              background: "#155724", 
               borderRadius: "8px", 
-              border: "1px solid #c3e6cb",
-              textAlign: "center"
+              border: "1px solid #28a745",
+              textAlign: "center",
+              color: "#fff"
             }}>
-              <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>✅</div>
-              <h3 style={{ color: "#155724", marginBottom: "1rem" }}>Thank you!</h3>
-              <p style={{ color: "#155724", margin: 0 }}>
+              <div style={{ fontSize: "3rem", marginBottom: "1rem", color: "#ffd700" }}>✅</div>
+              <h3 style={{ color: "#ffd700", marginBottom: "1rem" }}>Thank you!</h3>
+              <p style={{ color: "#fff", margin: 0 }}>
                 Your message has been sent successfully. We'll get back to you within 24 hours.
               </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
               <div style={{ marginBottom: "1.5rem" }}>
-                <label style={{ display: "block", marginBottom: "0.5rem", color: "#333", fontWeight: "bold" }}>
+                <label style={{ display: "block", marginBottom: "0.5rem", color: "#fff", fontWeight: "bold" }}>
                   Full Name *
                 </label>
                 <input
@@ -73,16 +74,18 @@ export const Contact = () => {
                   style={{ 
                     width: "100%", 
                     padding: "12px", 
-                    border: "1px solid #ddd", 
+                    border: "1px solid #343a40", 
                     borderRadius: "8px",
-                    fontSize: "1rem"
+                    fontSize: "1rem",
+                    background: "#181a1b",
+                    color: "#fff"
                   }}
                   placeholder="Enter your full name"
                 />
               </div>
 
               <div style={{ marginBottom: "1.5rem" }}>
-                <label style={{ display: "block", marginBottom: "0.5rem", color: "#333", fontWeight: "bold" }}>
+                <label style={{ display: "block", marginBottom: "0.5rem", color: "#fff", fontWeight: "bold" }}>
                   Email Address *
                 </label>
                 <input
@@ -94,16 +97,18 @@ export const Contact = () => {
                   style={{ 
                     width: "100%", 
                     padding: "12px", 
-                    border: "1px solid #ddd", 
+                    border: "1px solid #343a40", 
                     borderRadius: "8px",
-                    fontSize: "1rem"
+                    fontSize: "1rem",
+                    background: "#181a1b",
+                    color: "#fff"
                   }}
                   placeholder="Enter your email address"
                 />
               </div>
 
               <div style={{ marginBottom: "1.5rem" }}>
-                <label style={{ display: "block", marginBottom: "0.5rem", color: "#333", fontWeight: "bold" }}>
+                <label style={{ display: "block", marginBottom: "0.5rem", color: "#fff", fontWeight: "bold" }}>
                   Subject *
                 </label>
                 <input
@@ -115,16 +120,18 @@ export const Contact = () => {
                   style={{ 
                     width: "100%", 
                     padding: "12px", 
-                    border: "1px solid #ddd", 
+                    border: "1px solid #343a40", 
                     borderRadius: "8px",
-                    fontSize: "1rem"
+                    fontSize: "1rem",
+                    background: "#181a1b",
+                    color: "#fff"
                   }}
                   placeholder="Enter message subject"
                 />
               </div>
 
               <div style={{ marginBottom: "2rem" }}>
-                <label style={{ display: "block", marginBottom: "0.5rem", color: "#333", fontWeight: "bold" }}>
+                <label style={{ display: "block", marginBottom: "0.5rem", color: "#fff", fontWeight: "bold" }}>
                   Message *
                 </label>
                 <textarea
@@ -136,10 +143,12 @@ export const Contact = () => {
                   style={{ 
                     width: "100%", 
                     padding: "12px", 
-                    border: "1px solid #ddd", 
+                    border: "1px solid #343a40", 
                     borderRadius: "8px",
                     fontSize: "1rem",
-                    resize: "vertical"
+                    resize: "vertical",
+                    background: "#181a1b",
+                    color: "#fff"
                   }}
                   placeholder="Enter your message here..."
                 />
@@ -150,8 +159,8 @@ export const Contact = () => {
                 style={{ 
                   width: "100%",
                   padding: "14px 24px", 
-                  background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-                  color: "white",
+                  background: "#212529",
+                  color: "#ffd700",
                   border: "none",
                   borderRadius: "8px",
                   fontSize: "1.1rem",
@@ -171,13 +180,13 @@ export const Contact = () => {
         {/* Contact Information */}
         <div>
           <div style={{ 
-            background: "white", 
+            background: "#23272b", 
             padding: "2.5rem", 
             borderRadius: "12px", 
-            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+            boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
             marginBottom: "2rem"
           }}>
-            <h2 style={{ color: "#333", marginBottom: "2rem", fontSize: "2rem" }}>Get in Touch</h2>
+            <h2 style={{ color: "#fff", marginBottom: "2rem", fontSize: "2rem" }}>Get in Touch</h2>
             
             <div style={{ marginBottom: "2rem" }}>
               <div style={{ display: "flex", alignItems: "center", marginBottom: "1.5rem" }}>
