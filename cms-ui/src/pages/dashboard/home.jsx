@@ -1,6 +1,31 @@
 import React from "react";
+import { Product } from '../../components';
 
 export const Home = () => {
+  const books = [
+    {
+      name: 'Atomic Habits',
+      brand: 'James Clear',
+      price: 15.99,
+      description: 'An Easy & Proven Way to Build Good Habits & Break Bad Ones.',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg',
+    },
+    {
+      name: 'The Pragmatic Programmer',
+      brand: 'Andrew Hunt, David Thomas',
+      price: 32.50,
+      description: 'Your Journey to Mastery, 20th Anniversary Edition.',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/518FqJvR9aL._SX377_BO1,204,203,200_.jpg',
+    },
+    {
+      name: 'Deep Work',
+      brand: 'Cal Newport',
+      price: 18.00,
+      description: 'Rules for Focused Success in a Distracted World.',
+      image: 'https://images-na.ssl-images-amazon.com/images/I/41bWcNdTG+L._SX329_BO1,204,203,200_.jpg',
+    },
+  ];
+
   return (
     <div style={{ padding: "2rem", background: "#181a1b", minHeight: "100vh" }}>
       {/* Welcome Section */}
@@ -299,6 +324,16 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Featured Books */}
+      <section style={{ margin: '40px 0' }}>
+        <h2>Featured Books</h2>
+        <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
+          {books.map((book, idx) => (
+            <Product key={idx} product={book} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 };
