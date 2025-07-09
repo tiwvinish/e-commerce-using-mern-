@@ -35,13 +35,14 @@ export const Home = () => {
         borderRadius: "12px", 
         color: "#fff", 
         marginBottom: "2rem",
-        textAlign: "center"
+        textAlign: "center",
+        boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
       }}>
-        <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
+        <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", fontWeight: "bold", color: "#ffd700", textShadow: "0 2px 8px #0008" }}>
           Welcome to Vinish ko E-commerce Platform
         </h1>
-        <p style={{ fontSize: "1.2rem", opacity: 0.9, maxWidth: "600px", margin: "0 auto" }}>
-          Your comprehensive e-commerce management platform. Monitor sales, manage products, and grow and enhanceyour business.
+        <p style={{ fontSize: "1.2rem", opacity: 1, maxWidth: "600px", margin: "0 auto", color: "#e0e0e0", fontWeight: 500 }}>
+          Your comprehensive e-commerce management platform. Monitor sales, manage products, and grow and enhance your business.
         </p>
       </div>
 
@@ -120,7 +121,7 @@ export const Home = () => {
 
       {/* Quick Actions */}
       <div style={{ marginBottom: "2rem" }}>
-        <h2 style={{ color: "#fff", marginBottom: "1.5rem" }}>Quick Actions</h2>
+        <h2 style={{ color: "#ffd700", marginBottom: "1.5rem", fontWeight: 700, textShadow: "0 2px 8px #0008" }}>Quick Actions</h2>
         <div style={{ 
           display: "grid", 
           gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", 
@@ -327,7 +328,7 @@ export const Home = () => {
 
       {/* Featured Books */}
       <section style={{ margin: '40px 0' }}>
-        <h2>Featured Books</h2>
+        <h2 style={{ color: '#ffd700', fontWeight: 700, marginBottom: 20, textShadow: '0 2px 8px #0008' }}>Featured Books</h2>
         <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
           {books.map((book, idx) => (
             <Product key={idx} product={book} />
