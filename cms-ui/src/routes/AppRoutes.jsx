@@ -11,6 +11,7 @@ return <BrowserRouter>
            <Route index element={<pages.dashboard.Home/>} />
            <Route path="about" element={<pages.dashboard.About/>} />
            <Route path="contact" element={<pages.dashboard.Contact/>} />
+           <Route path="/products" element={<pages.dashboard.Products />} />
     </Route>
 </Routes>
 </BrowserRouter>
