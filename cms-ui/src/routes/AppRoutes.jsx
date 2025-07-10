@@ -12,6 +12,7 @@ return <BrowserRouter>
            <Route path="about" element={<pages.dashboard.About/>} />
            <Route path="contact" element={<pages.dashboard.Contact/>} />
            <Route path="/products" element={<pages.dashboard.Products />} />
+           <Route path="/orders" element={<pages.dashboard.Orders />} />
     </Route>
 </Routes>
 </BrowserRouter>
