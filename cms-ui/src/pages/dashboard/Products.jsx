@@ -82,6 +82,46 @@ const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/41wYbyr3LLL._SX324_BO1,204,203,200_.jpg',
     category: 'Books',
   },
+  {
+    name: 'To Kill a Mockingbird',
+    brand: 'Harper Lee',
+    price: 13.99,
+    description: 'A classic novel of racism and injustice in the deep South.',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81OdwZ9F3eL.jpg',
+    category: 'Books',
+  },
+  {
+    name: '1984',
+    brand: 'George Orwell',
+    price: 12.49,
+    description: 'A dystopian social science fiction novel and cautionary tale.',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg',
+    category: 'Books',
+  },
+  {
+    name: 'The Great Gatsby',
+    brand: 'F. Scott Fitzgerald',
+    price: 11.99,
+    description: 'A novel about the American dream and the roaring twenties.',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg',
+    category: 'Books',
+  },
+  {
+    name: 'The Catcher in the Rye',
+    brand: 'J.D. Salinger',
+    price: 10.99,
+    description: 'A story about adolescent alienation and loss of innocence.',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71Q1Iu4suSL.jpg',
+    category: 'Books',
+  },
+  {
+    name: 'Brave New World',
+    brand: 'Aldous Huxley',
+    price: 14.49,
+    description: 'A futuristic society controlled by technology and government.',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81m2+4kFQSL.jpg',
+    category: 'Books',
+  },
 ];
 
 const Products = () => (
