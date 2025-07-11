@@ -72,6 +72,77 @@ const Landing = () => {
           View Products
         </button>
       </Link>
+
+      {/* Customer Voices Section */}
+      <div style={{
+        marginTop: 64,
+        width: '100%',
+        background: 'rgba(35,39,43,0.95)',
+        padding: '40px 0',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}>
+        <h2 style={{ color: '#ffd700', fontWeight: 700, marginBottom: 32, fontSize: 32, textShadow: '0 2px 8px #000' }}>
+          What Our Customers Say
+        </h2>
+        <div style={{ display: 'flex', gap: 32, flexWrap: 'wrap', justifyContent: 'center' }}>
+          {/* Testimonial 1 */}
+          <div style={{
+            background: '#23272b',
+            borderRadius: 12,
+            boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
+            padding: 28,
+            minWidth: 260,
+            maxWidth: 320,
+            textAlign: 'center',
+            border: '1px solid #333',
+            margin: 8
+          }}>
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 12, border: '2px solid #ffd700' }} />
+            <h4 style={{ color: '#43e97b', margin: '8px 0 4px' }}>John Doe</h4>
+            <p style={{ color: '#e0e0e0', fontStyle: 'italic', fontSize: 16 }}>
+              "Amazing selection and super easy to order. The customer support is top-notch!"
+            </p>
+          </div>
+          {/* Testimonial 2 */}
+          <div style={{
+            background: '#23272b',
+            borderRadius: 12,
+            boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
+            padding: 28,
+            minWidth: 260,
+            maxWidth: 320,
+            textAlign: 'center',
+            border: '1px solid #333',
+            margin: 8
+          }}>
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Smith" style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 12, border: '2px solid #ffd700' }} />
+            <h4 style={{ color: '#43e97b', margin: '8px 0 4px' }}>Jane Smith</h4>
+            <p style={{ color: '#e0e0e0', fontStyle: 'italic', fontSize: 16 }}>
+              "I love the reviews feature! Helped me pick the perfect product. Highly recommend."
+            </p>
+          </div>
+          {/* Testimonial 3 */}
+          <div style={{
+            background: '#23272b',
+            borderRadius: 12,
+            boxShadow: '0 2px 12px rgba(0,0,0,0.18)',
+            padding: 28,
+            minWidth: 260,
+            maxWidth: 320,
+            textAlign: 'center',
+            border: '1px solid #333',
+            margin: 8
+          }}>
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Alex Lee" style={{ width: 64, height: 64, borderRadius: '50%', marginBottom: 12, border: '2px solid #ffd700' }} />
+            <h4 style={{ color: '#43e97b', margin: '8px 0 4px' }}>Alex Lee</h4>
+            <p style={{ color: '#e0e0e0', fontStyle: 'italic', fontSize: 16 }}>
+              "Fast delivery and great quality. Will definitely shop here again!"
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
