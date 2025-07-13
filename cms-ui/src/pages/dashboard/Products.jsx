@@ -6,7 +6,7 @@ const products = [
     name: 'Atomic Habits',
     brand: 'James Clear',
     price: 15.99,
-    description: 'An Easy & Proven Way to Build Good Habits & Break Bad Ones.',
+    description: 'An Easy & Proven Way to Build Good Habits & Break Bad Ones',
     image: 'https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg',
     category: 'Books',
   },
