@@ -37,7 +37,7 @@ const products = [
   {
     name: 'The Lean Startup',
     brand: 'Eric Ries',
-    price: 21.99,
+    price: 22.99,
     description: 'How Today’s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.',
     image: 'https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg',
     category: 'Books',
