@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const features = [
@@ -48,6 +48,27 @@ const testimonials = [
 ];
 
 const Landing = () => {
+  // Login form state
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+    // Dummy login logic (replace with real API call)
+    setTimeout(() => {
+      if (email === "admin@example.com" && password === "password") {
+        alert("Login successful!");
+      } else {
+        setError("Invalid email or password");
+      }
+      setLoading(false);
+    }, 1000);
+  };
+
   return (
     <div style={{
       minHeight: "80vh",
@@ -59,6 +80,75 @@ const Landing = () => {
       color: "#f8f9fa",
       padding: "48px 0"
     }}>
+      {/* Login Form */}
+      <form onSubmit={handleLogin} style={{
+        background: "#23272b",
+        borderRadius: 12,
+        boxShadow: "0 2px 12px rgba(0,0,0,0.18)",
+        padding: 32,
+        minWidth: 320,
+        maxWidth: 380,
+        marginBottom: 36,
+        border: "1px solid #333",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}>
+        <h2 style={{ color: '#ffd700', fontWeight: 700, marginBottom: 18, textShadow: '0 2px 8px #000' }}>Login</h2>
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          required
+          style={{
+            width: '100%',
+            padding: '12px 14px',
+            marginBottom: 16,
+            borderRadius: 6,
+            border: '1px solid #444',
+            background: '#181a1b',
+            color: '#fff',
+            fontSize: 16
+          }}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={e => setPassword(e.target.value)}
+          required
+          style={{
+            width: '100%',
+            padding: '12px 14px',
+            marginBottom: 16,
+            borderRadius: 6,
+            border: '1px solid #444',
+            background: '#181a1b',
+            color: '#fff',
+            fontSize: 16
+          }}
+        />
+        {error && <div style={{ color: '#ff4d4f', marginBottom: 12 }}>{error}</div>}
+        <button
+          type="submit"
+          disabled={loading}
+          style={{
+            background: "linear-gradient(90deg, #43e97b 0%, #38f9d7 100%)",
+            color: "#23272b",
+            fontWeight: 700,
+            fontSize: 18,
+            padding: "10px 28px",
+            border: "none",
+            borderRadius: 8,
+            boxShadow: "0 2px 8px rgba(67,233,123,0.18)",
+            cursor: loading ? 'not-allowed' : 'pointer',
+            marginBottom: 4
+          }}
+        >
+          {loading ? 'Logging in...' : 'Login'}
+        </button>
+      </form>
       <h1 style={{ fontSize: 48, fontWeight: 800, marginBottom: 16, color: "#ffd700", textShadow: "0 2px 8px #000" }}>
         Welcome to MERNProject
       </h1>
