@@ -21,7 +21,7 @@ const products = [
   {
     name: 'Deep Work',
     brand: 'Cal Newport',
-    price: 18.00,
+    price: 25.00,
     description: 'Rules for Focused Success in a Distracted World.',
     image: 'https://images-na.ssl-images-amazon.com/images/I/41bWcNdTG+L._SX329_BO1,204,203,200_.jpg',
     category: 'Books',
