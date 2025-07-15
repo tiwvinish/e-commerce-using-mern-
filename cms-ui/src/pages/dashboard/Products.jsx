@@ -125,7 +125,7 @@ const products = [
 ];
 
 const Products = () => (
-  <div style={{ padding: "2rem", background: "#181a1b", minHeight: "100vh" }}>
+  <div style={{ padding: "2rem", background: "#181a1b", minHeight: "110vh" }}>
     <h2 style={{ color: '#4facfe', fontWeight: 700, marginBottom: 20, textShadow: '0 2px 8px #0008' }}>All Books</h2>
     <div style={{ display: 'flex', gap: 24, flexWrap: 'wrap' }}>
       {products.map((product, idx) => (
