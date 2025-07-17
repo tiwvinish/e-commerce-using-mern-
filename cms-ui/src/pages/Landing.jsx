@@ -22,7 +22,7 @@ const features = [
 // Testimonials data
 const testimonials = [
   {
-    name: "John Doe",
+    name: "John johnson",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     rating: 5,
     text: "Amazing selection and super easy to order. The customer support is top-notch!"
