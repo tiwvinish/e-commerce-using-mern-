@@ -34,7 +34,7 @@ const testimonials = [
     text: "I love the reviews feature! Helped me pick the perfect product. Highly recommend."
   },
   {
-    name: "Alex Lee",
+    name: "Alex james",
     image: "https://randomuser.me/api/portraits/men/65.jpg",
     rating: 5,
     text: "Fast delivery and great quality. Will definitely shop here again!"
