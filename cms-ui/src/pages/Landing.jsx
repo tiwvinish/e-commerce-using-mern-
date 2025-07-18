@@ -40,7 +40,7 @@ const testimonials = [
     text: "Fast delivery and great quality. Will definitely shop here again!"
   },
   {
-    name: "Priya Patel",
+    name: "Priya sai Patel",
     image: "https://randomuser.me/api/portraits/women/68.jpg",
     rating: 5,
     text: "The interface is so modern and easy to use. Shopping here is a breeze!"
