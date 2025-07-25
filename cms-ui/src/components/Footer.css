@@ -120,7 +120,7 @@
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1rem;
   color: #bdc3c7;
   font-size: 0.95rem;
 }
@@ -193,7 +193,7 @@
 
 /* Bottom Footer */
 .footer-bottom {
-  border-top: 1px solid #34495e;
+  border-top: 1.2px solid #34495e;
   padding-top: 1.5rem;
   text-align: center;
 }
