@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="footer-section">
               <h5 className="footer-title">Commerce </h5>
               <p className="footer-description">
-                Your trusted destination for quality products. We provide the best shopping experience with premium customer service.
+                Your trusted destination for quality products. We provide the best shopping experience with premium customer goods and service.
               </p>
               <div className="social-links">
                 <a href="#" className="social-link" aria-label="Facebook">
