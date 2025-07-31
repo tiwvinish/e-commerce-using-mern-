@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-  color: #ecf0f1;
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  color: #f7fafc;
   padding: 4rem 0 1rem 0;
   margin-top: 3rem;
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 }
 
 .footer-title {
-  color: #3498db;
+  color: #63b3ed;
   font-weight: 600;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
@@ -25,16 +25,16 @@
 .footer-title::after {
   content: '';
   position: absolute;
-  bottom: -8px;
+  bottom: -7.5px;
   left: 0;
   width: 40px;
   height: 3px;
-  background: linear-gradient(90deg, #3498db, #2980b9);
+  background: linear-gradient(90deg, #63b3ed, #4299e1);
   border-radius: 2px;
 }
 
 .footer-description {
-  color: #bdc3c7;
+  color: #cbd5e0;
   line-height: 1.6;
   margin-bottom: 1.6rem;
   font-size: 0.95rem;
@@ -53,17 +53,17 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #3498db, #2980b9);
+  background: linear-gradient(135deg, #63b3ed, #4299e1);
   color: white;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 10px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 2px 10px rgba(99, 179, 237, 0.3);
 }
 
 .social-link:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 5px 15px rgba(99, 179, 237, 0.4);
   color: white;
   text-decoration: none;
 }
