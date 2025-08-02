@@ -41,7 +41,7 @@ export const Footer = () => {
                   <Link to="/" className="footer-link">Home</Link>
                 </li>
                 <li>
-                  <Link to="/products" className="footer-link">Products</Link>
+                  <Link to="/products" className="footer-link">Productss</Link>
                 </li>
                 <li>
                   <Link to="/categories" className="footer-link">Categories</Link>
@@ -83,7 +83,7 @@ export const Footer = () => {
           {/* Contact Information */}
           <Col lg={3} md={6} sm={12} className="mb-4">
             <div className="footer-section">
-              <h5 className="footer-title">Contact Info</h5>
+              <h5 className="footer-title">Contact Information</h5>
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt contact-icon"></i>
