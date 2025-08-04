@@ -111,7 +111,7 @@ export const Footer = () => {
           <Col lg={6} md={12} className="mb-3">
             <div className="newsletter-content">
               <h6 className="newsletter-title">Subscribe to Our Newsletter</h6>
-              <p className="newsletter-description">Get updates about new products and special offers!</p>
+              <p className="newsletter-description">Get updates about new products, deals and special offers!</p>
             </div>
           </Col>
           <Col lg={6} md={12} className="mb-3">
