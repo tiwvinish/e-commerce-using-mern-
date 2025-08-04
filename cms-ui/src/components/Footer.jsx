@@ -95,7 +95,7 @@ export const Footer = () => {
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-envelope contact-icon"></i>
-                  <span>info@mern3pm.com</span>
+                  <span>info@mecommerce.com</span>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-clock contact-icon"></i>
