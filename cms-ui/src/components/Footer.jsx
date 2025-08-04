@@ -99,7 +99,7 @@ export const Footer = () => {
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-clock contact-icon"></i>
-                  <span>Mon-Fri: 9AM-6PM</span>
+                  <span>Sun-Fri: 9AM-6PM</span>
                 </div>
               </div>
             </div>
