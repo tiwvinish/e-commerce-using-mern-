@@ -83,7 +83,7 @@ export const Footer = () => {
           {/* Contact Information */}
           <Col lg={3} md={6} sm={12} className="mb-4">
             <div className="footer-section">
-              <h5 className="footer-title">Contact Information</h5>
+              <h5 className="footer-title">Contact Info</h5>
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt contact-icon"></i>
