@@ -120,7 +120,7 @@ export const Footer = () => {
                 <input 
                   type="email" 
                   className="form-control newsletter-input" 
-                  placeholder="Enter your email address"
+                  placeholder="Enter your mail address"
                   aria-label="Email address for newsletter"
                 />
                 <button className="btn btn-primary newsletter-btn" type="button">
