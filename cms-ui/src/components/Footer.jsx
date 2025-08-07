@@ -95,11 +95,11 @@ export const Footer = () => {
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-envelope contact-icon"></i>
-                  <span>info@mecommerce.com</span>
+                  <span>info@ecommerce.com</span>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-clock contact-icon"></i>
-                  <span>Sun-Fri: 9AM-6PM</span>
+                  <span>Sun-Fri: 9AM-5PM</span>
                 </div>
               </div>
             </div>
