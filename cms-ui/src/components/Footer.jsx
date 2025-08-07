@@ -87,7 +87,7 @@ export const Footer = () => {
               <div className="contact-info">
                 <div className="contact-item">
                   <i className="fas fa-map-marker-alt contact-icon"></i>
-                  <span>123 Commerce St, Business City, BC 123456</span>
+                  <span>Kathmandu, Nepal</span>
                 </div>
                 <div className="contact-item">
                   <i className="fas fa-phone contact-icon"></i>
