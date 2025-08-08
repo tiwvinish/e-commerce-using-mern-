@@ -68,7 +68,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  gap: 6px;
+  gap: 5px;
   z-index: 1100;
 }
 .header__toggle .bar {
