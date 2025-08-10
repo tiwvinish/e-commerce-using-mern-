@@ -101,7 +101,7 @@
     transform: translateY(-20px);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s;
+    transition: all 0.5s;
   }
   .header__nav.open {
     transform: translateY(0);
