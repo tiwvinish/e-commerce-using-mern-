@@ -109,7 +109,7 @@
     pointer-events: auto;
   }
   .header__nav-link {
-    padding: 1.2rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-bottom: 1.3px solid rgba(255,255,255,0.1);
   }
   .header__toggle {
