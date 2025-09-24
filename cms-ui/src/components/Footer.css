@@ -207,7 +207,7 @@
 .footer-bottom-links {
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 2.6rem;
   flex-wrap: wrap;
 }
 
