@@ -26,7 +26,7 @@ app.use('/api',routes)
 app.use((req,res,next)=>{
   next({
 
-    message:'Resourse Not Found',
+    message:'Resourse Not Found !!',
     Status:404
   })
 })
