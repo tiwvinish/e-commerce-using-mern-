@@ -42,7 +42,7 @@ app.use((error, req, res, next)=>{
 
 app.listen(port,async()=>{
     console.log(`Server started at http://localhost:${port}`)
-    console.log('Press ctrl+c to stop hai !! ')
+    console.log('Press ctrl+c to stop ! ')
     await mongoose.connect(mongoUrl)
     console.log('MongoDB Connected Successfully !! ')
     
