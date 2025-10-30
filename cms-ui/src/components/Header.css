@@ -44,7 +44,7 @@
 .header__nav-link::after {
   content: "";
   display: block;
-  height: 2.1px;
+  height: 2.2px;
   width: 0;
   background: #ffd700;
   transition: width 0.4s;
