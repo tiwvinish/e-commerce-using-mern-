@@ -47,7 +47,7 @@
   height: 2.2px;
   width: 0;
   background: #ffd700;
-  transition: width 0.4s;
+  transition: width 0.5s;
   position: absolute;
   left: 0;
   bottom: -4px;
