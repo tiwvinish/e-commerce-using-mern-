@@ -76,7 +76,7 @@
   height: 6px;
   background: #fff;
   border-radius: 2.6px;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .header__toggle.open .bar:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
