@@ -22,7 +22,7 @@
   color: #fff;
   text-decoration: none;
   letter-spacing: 2.5px;
-  transition: color 0.3s;
+  transition: color 0.2s;
 }
 .header__brand a:hover {
   color: #ffd700;
